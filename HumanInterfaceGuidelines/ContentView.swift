@@ -16,6 +16,11 @@ struct ContentView: View {
                             ) {
                 Text("Weather")
             }
+                NavigationLink(destination:
+                        DataEntry()
+                                ) {
+                    Text("Data Entry")
+                }
             }
         }
     }

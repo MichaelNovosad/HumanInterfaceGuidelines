@@ -24,6 +24,7 @@ struct Settings: View {
                         VStack(alignment: .leading) {
                             Text("United States")
                             Text("Fahrenheit, miles, mph")
+                                .font(.footnote)
                         }
                     }
                 }
@@ -37,6 +38,7 @@ struct Settings: View {
                         VStack(alignment: .leading) {
                             Text("Light")
                             Text("Dark text on light background")
+                                .font(.footnote)
                         }
                     }
                 }
@@ -45,9 +47,12 @@ struct Settings: View {
                         Toggle(isOn: $toggleIsOn) {
                             VStack(alignment: .leading) {
                                 Text("Show Analytics")
-                                Text("Dark text on light background")
+                                Text("Anonymous screen view and event stats")
+                                    .font(.footnote)
                             }
+                            .padding(.all, 3)
                         }
+                        .foregroundColor(.blue)
                     }
                     NavigationLink(
                         destination:
@@ -76,6 +81,7 @@ struct Settings: View {
                     }
                 }
             }
+            .ignoresSafeArea(.all)
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Text("Settings")

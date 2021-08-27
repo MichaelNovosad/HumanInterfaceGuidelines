@@ -294,6 +294,7 @@ struct Weather: View {
                             Text("Forecast")
                                 .font(.subheadline)
                         }
+                        .foregroundColor(.blue)
                         .padding()
                         VStack {
                             Image(systemName: "globe")
