@@ -11,15 +11,20 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-            NavigationLink(destination:
-                    Weather()
-                            ) {
-                Text("Weather")
-            }
                 NavigationLink(destination:
-                        DataEntry()
-                                ) {
+                                Weather()
+                ) {
+                    Text("Weather")
+                }
+                NavigationLink(destination:
+                                DataEntry()
+                ) {
                     Text("Data Entry")
+                }
+                NavigationLink(destination:
+                                Ringtone()
+                ) {
+                    Text("Ringtone")
                 }
             }
         }
