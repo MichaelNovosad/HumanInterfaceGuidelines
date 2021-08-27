@@ -2,15 +2,22 @@
 //  ContentView.swift
 //  HumanInterfaceGuidelines
 //
-//  Created by Michael Novosad on 27.08.2021.
+//  Created by Michael Novosad on 25.08.2021.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+            NavigationLink(destination:
+                    Weather()
+                            ) {
+                Text("Weather")
+            }
+            }
+        }
     }
 }
 

@@ -11,6 +11,8 @@
 		BF42A3C126D8CE050032CF3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42A3C026D8CE050032CF3B /* ContentView.swift */; };
 		BF42A3C326D8CE060032CF3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF42A3C226D8CE060032CF3B /* Assets.xcassets */; };
 		BF42A3C626D8CE060032CF3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF42A3C526D8CE060032CF3B /* Preview Assets.xcassets */; };
+		BF42A3D026D8CE470032CF3B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42A3CF26D8CE470032CF3B /* Settings.swift */; };
+		BF42A3D226D8CE6B0032CF3B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42A3D126D8CE6B0032CF3B /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		BF42A3C226D8CE060032CF3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF42A3C526D8CE060032CF3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF42A3C726D8CE060032CF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF42A3CF26D8CE470032CF3B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		BF42A3D126D8CE6B0032CF3B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			children = (
 				BF42A3BE26D8CE050032CF3B /* HumanInterfaceGuidelinesApp.swift */,
 				BF42A3C026D8CE050032CF3B /* ContentView.swift */,
+				BF42A3CD26D8CE130032CF3B /* App Architecture */,
 				BF42A3C226D8CE060032CF3B /* Assets.xcassets */,
 				BF42A3C726D8CE060032CF3B /* Info.plist */,
 				BF42A3C426D8CE060032CF3B /* Preview Content */,
@@ -67,6 +72,23 @@
 				BF42A3C526D8CE060032CF3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF42A3CD26D8CE130032CF3B /* App Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				BF42A3CE26D8CE2A0032CF3B /* Settings Example */,
+			);
+			path = "App Architecture";
+			sourceTree = "<group>";
+		};
+		BF42A3CE26D8CE2A0032CF3B /* Settings Example */ = {
+			isa = PBXGroup;
+			children = (
+				BF42A3CF26D8CE470032CF3B /* Settings.swift */,
+				BF42A3D126D8CE6B0032CF3B /* Weather.swift */,
+			);
+			path = "Settings Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF42A3D226D8CE6B0032CF3B /* Weather.swift in Sources */,
+				BF42A3D026D8CE470032CF3B /* Settings.swift in Sources */,
 				BF42A3C126D8CE050032CF3B /* ContentView.swift in Sources */,
 				BF42A3BF26D8CE050032CF3B /* HumanInterfaceGuidelinesApp.swift in Sources */,
 			);
