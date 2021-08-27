@@ -32,6 +32,7 @@ struct Weather: View {
                         HStack {
                                 VStack(alignment: .leading) {
                                     Text("THU")
+                                        .bold()
                                     HStack {
                                         Image(systemName: "drop")
                                             .foregroundColor(.blue)
@@ -39,6 +40,7 @@ struct Weather: View {
                                         Text("89%")
                                             .foregroundColor(.blue)
                                             .font(.caption2)
+                                            .bold()
                                     }
                                 }
                                 Image(systemName: "cloud.drizzle")
@@ -57,6 +59,7 @@ struct Weather: View {
                             HStack {
                                 VStack(alignment: .leading) {
                                     Text("FRI")
+                                        .bold()
                                     HStack {
                                         Image(systemName: "drop")
                                             .foregroundColor(.blue)
@@ -64,6 +67,7 @@ struct Weather: View {
                                         Text("37%")
                                             .foregroundColor(.blue)
                                             .font(.caption2)
+                                            .bold()
                                     }
                                 }
                                 Image(systemName: "cloud.sun")
@@ -74,7 +78,6 @@ struct Weather: View {
                                         .fill()
                                         .foregroundColor(.gray)
                                         .padding(10)
-                                    
                                     Text("85°")
                                 }
                                 .padding(.horizontal)
@@ -83,6 +86,7 @@ struct Weather: View {
                             HStack {
                                 VStack(alignment: .leading) {
                                     Text("SAT")
+                                        .bold()
                                     HStack {
                                         Image(systemName: "drop")
                                             .foregroundColor(.blue)
@@ -90,6 +94,7 @@ struct Weather: View {
                                         Text("18%")
                                             .foregroundColor(.blue)
                                             .font(.caption2)
+                                            .bold()
                                     }
                                 }
                                 Image(systemName: "cloud.sun")
@@ -108,6 +113,7 @@ struct Weather: View {
                             HStack {
                                 VStack(alignment: .leading) {
                                     Text("SUN")
+                                        .bold()
                                     HStack {
                                         Image(systemName: "drop")
                                             .foregroundColor(.blue)
@@ -115,6 +121,7 @@ struct Weather: View {
                                         Text("26%")
                                             .foregroundColor(.blue)
                                             .font(.caption2)
+                                            .bold()
                                     }
                                 }
                                 Image(systemName: "cloud.sun")
@@ -125,7 +132,6 @@ struct Weather: View {
                                         .fill()
                                         .foregroundColor(.gray)
                                         .padding(10)
-                                    
                                     Text("77°")
                                 }
                                 .padding(.horizontal)
@@ -134,6 +140,7 @@ struct Weather: View {
                             HStack {
                                 VStack(alignment: .leading) {
                                     Text("MON")
+                                        .bold()
                                     HStack {
                                         Image(systemName: "drop")
                                             .foregroundColor(.blue)
@@ -141,6 +148,7 @@ struct Weather: View {
                                         Text("6%")
                                             .foregroundColor(.blue)
                                             .font(.caption2)
+                                            .bold()
                                     }
                                 }
                                 Image(systemName: "sun.max")
@@ -160,6 +168,7 @@ struct Weather: View {
                             HStack {
                                 VStack(alignment: .leading) {
                                     Text("TUE")
+                                        .bold()
                                     HStack {
                                         Image(systemName: "drop")
                                             .foregroundColor(.blue)
@@ -167,6 +176,8 @@ struct Weather: View {
                                         Text("13%")
                                             .foregroundColor(.blue)
                                             .font(.caption2)
+                                            .bold()
+
                                     }
                                 }
                                 Image(systemName: "cloud.sun")
@@ -186,6 +197,7 @@ struct Weather: View {
                             HStack {
                                 VStack(alignment: .leading) {
                                     Text("WED")
+                                        .bold()
                                     HStack {
                                         Image(systemName: "drop")
                                             .foregroundColor(.blue)
@@ -193,6 +205,8 @@ struct Weather: View {
                                         Text("61%")
                                             .foregroundColor(.blue)
                                             .font(.caption2)
+                                            .bold()
+
                                     }
                                 }
                                 Image(systemName: "cloud.drizzle")
@@ -211,6 +225,7 @@ struct Weather: View {
                             HStack {
                                 VStack(alignment: .leading) {
                                     Text("THU")
+                                        .bold()
                                     HStack {
                                         Image(systemName: "drop")
                                             .foregroundColor(.blue)
@@ -218,6 +233,7 @@ struct Weather: View {
                                         Text("92%")
                                             .foregroundColor(.blue)
                                             .font(.caption2)
+                                            .bold()
                                     }
                                 }
                                 Image(systemName: "cloud.drizzle")
