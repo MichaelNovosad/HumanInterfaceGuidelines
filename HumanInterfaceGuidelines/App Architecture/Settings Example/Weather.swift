@@ -325,6 +325,7 @@ struct Weather: View {
             }
         }
         .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }
 

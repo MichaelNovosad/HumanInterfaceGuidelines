@@ -81,7 +81,6 @@ struct Settings: View {
                     }
                 }
             }
-            .ignoresSafeArea(.all)
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Text("Settings")
@@ -96,8 +95,8 @@ struct Settings: View {
                 }
             }
         }
-        .navigationBarTitle("")
         .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }
 

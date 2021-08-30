@@ -27,6 +27,7 @@ struct ContentView: View {
                     Text("Ringtone")
                 }
             }
+            .navigationBarHidden(true)
         }
     }
 }
