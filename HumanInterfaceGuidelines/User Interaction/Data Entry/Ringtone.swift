@@ -12,7 +12,6 @@ struct Ringtone: View {
     @State private var vibrationPicker = 1
     
     var body: some View {
-        NavigationView {
                 Form {
                     Picker(selection: $vibrationPicker, label: Text("Vibration"), content: {
                         Text("Default").tag(1)
@@ -59,8 +58,7 @@ struct Ringtone: View {
 
                 }
             }
-        }
-        .navigationBarHidden(true)
+                .navigationBarBackButtonHidden(true)
     }
 }
 

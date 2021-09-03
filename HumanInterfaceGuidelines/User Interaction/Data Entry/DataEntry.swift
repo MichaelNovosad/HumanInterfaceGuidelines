@@ -15,7 +15,6 @@ struct DataEntry: View {
     @State private var pickerSelector = 1
     
     var body: some View {
-        NavigationView {
             Form {
                 Section {
                     Text("Get Groceries")
@@ -83,9 +82,7 @@ struct DataEntry: View {
                     })
                 }
             }
-        }
-        .navigationBarTitle("")
-        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }
 

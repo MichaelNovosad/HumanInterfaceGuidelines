@@ -15,6 +15,9 @@
 		BF42A3D226D8CE6B0032CF3B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42A3D126D8CE6B0032CF3B /* Weather.swift */; };
 		BF42A3D626D8E4B60032CF3B /* DataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42A3D526D8E4B60032CF3B /* DataEntry.swift */; };
 		BF42A3D826D8F4B40032CF3B /* Ringtone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42A3D726D8F4B40032CF3B /* Ringtone.swift */; };
+		BF44043626E2480300F2C143 /* Mailboxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44043526E2480300F2C143 /* Mailboxes.swift */; };
+		BF44043826E2536000F2C143 /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44043726E2536000F2C143 /* Recents.swift */; };
+		BF44043B26E259A800F2C143 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44043A26E259A800F2C143 /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		BF42A3D126D8CE6B0032CF3B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		BF42A3D526D8E4B60032CF3B /* DataEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEntry.swift; sourceTree = "<group>"; };
 		BF42A3D726D8F4B40032CF3B /* Ringtone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ringtone.swift; sourceTree = "<group>"; };
+		BF44043526E2480300F2C143 /* Mailboxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mailboxes.swift; sourceTree = "<group>"; };
+		BF44043726E2536000F2C143 /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		BF44043A26E259A800F2C143 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,8 @@
 				BF42A3C026D8CE050032CF3B /* ContentView.swift */,
 				BF42A3CD26D8CE130032CF3B /* App Architecture */,
 				BF42A3D326D8E4900032CF3B /* User Interaction */,
+				BF44043926E2599200F2C143 /* Visual Design */,
+				BF44043426E247EE00F2C143 /* Bars */,
 				BF42A3C226D8CE060032CF3B /* Assets.xcassets */,
 				BF42A3C726D8CE060032CF3B /* Info.plist */,
 				BF42A3C426D8CE060032CF3B /* Preview Content */,
@@ -111,6 +119,23 @@
 				BF42A3D726D8F4B40032CF3B /* Ringtone.swift */,
 			);
 			path = "Data Entry";
+			sourceTree = "<group>";
+		};
+		BF44043426E247EE00F2C143 /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				BF44043526E2480300F2C143 /* Mailboxes.swift */,
+				BF44043726E2536000F2C143 /* Recents.swift */,
+			);
+			path = Bars;
+			sourceTree = "<group>";
+		};
+		BF44043926E2599200F2C143 /* Visual Design */ = {
+			isa = PBXGroup;
+			children = (
+				BF44043A26E259A800F2C143 /* Notes.swift */,
+			);
+			path = "Visual Design";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF44043626E2480300F2C143 /* Mailboxes.swift in Sources */,
 				BF42A3D226D8CE6B0032CF3B /* Weather.swift in Sources */,
 				BF42A3D626D8E4B60032CF3B /* DataEntry.swift in Sources */,
 				BF42A3D026D8CE470032CF3B /* Settings.swift in Sources */,
+				BF44043826E2536000F2C143 /* Recents.swift in Sources */,
+				BF44043B26E259A800F2C143 /* Notes.swift in Sources */,
 				BF42A3C126D8CE050032CF3B /* ContentView.swift in Sources */,
 				BF42A3BF26D8CE050032CF3B /* HumanInterfaceGuidelinesApp.swift in Sources */,
 				BF42A3D826D8F4B40032CF3B /* Ringtone.swift in Sources */,

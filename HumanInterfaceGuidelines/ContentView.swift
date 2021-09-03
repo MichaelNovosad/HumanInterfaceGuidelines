@@ -26,6 +26,21 @@ struct ContentView: View {
                 ) {
                     Text("Ringtone")
                 }
+                NavigationLink(destination:
+                                Mailboxes()
+                ) {
+                    Text("Mailboxes")
+                }
+                NavigationLink(destination:
+                                Recents()
+                ) {
+                    Text("Recents")
+                }
+                NavigationLink(destination:
+                                Notes()
+                ) {
+                    Text("Notes")
+                }
             }
             .navigationBarHidden(true)
         }
