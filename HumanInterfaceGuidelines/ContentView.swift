@@ -12,6 +12,16 @@ struct ContentView: View {
         NavigationView {
             List {
                 NavigationLink(destination:
+                                Onboarding()
+                ) {
+                    Text("Onboarding")
+                }
+                NavigationLink(destination:
+                                Modality()
+                ) {
+                    Text("Modality")
+                }
+                NavigationLink(destination:
                                 Weather()
                 ) {
                     Text("Weather")
@@ -40,6 +50,16 @@ struct ContentView: View {
                                 Notes()
                 ) {
                     Text("Notes")
+                }
+                NavigationLink(destination:
+                                IntroducingBedtime()
+                ) {
+                    Text("IntroducingBedtime")
+                }
+                NavigationLink(destination:
+                                Favorites()
+                ) {
+                    Text("Favorites")
                 }
             }
             .navigationBarHidden(true)

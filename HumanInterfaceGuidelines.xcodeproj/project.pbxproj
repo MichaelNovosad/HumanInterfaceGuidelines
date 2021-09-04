@@ -18,6 +18,10 @@
 		BF44043626E2480300F2C143 /* Mailboxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44043526E2480300F2C143 /* Mailboxes.swift */; };
 		BF44043826E2536000F2C143 /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44043726E2536000F2C143 /* Recents.swift */; };
 		BF44043B26E259A800F2C143 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44043A26E259A800F2C143 /* Notes.swift */; };
+		BF44043D26E25D8F00F2C143 /* IntroducingBedtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44043C26E25D8F00F2C143 /* IntroducingBedtime.swift */; };
+		BF44043F26E35A9F00F2C143 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44043E26E35A9F00F2C143 /* Favorites.swift */; };
+		BF44044126E380FA00F2C143 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44044026E380FA00F2C143 /* Onboarding.swift */; };
+		BF44044326E38EE500F2C143 /* Modality.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44044226E38EE500F2C143 /* Modality.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		BF44043526E2480300F2C143 /* Mailboxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mailboxes.swift; sourceTree = "<group>"; };
 		BF44043726E2536000F2C143 /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
 		BF44043A26E259A800F2C143 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		BF44043C26E25D8F00F2C143 /* IntroducingBedtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroducingBedtime.swift; sourceTree = "<group>"; };
+		BF44043E26E35A9F00F2C143 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		BF44044026E380FA00F2C143 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		BF44044226E38EE500F2C143 /* Modality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modality.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,8 @@
 		BF42A3CD26D8CE130032CF3B /* App Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				BF44044026E380FA00F2C143 /* Onboarding.swift */,
+				BF44044226E38EE500F2C143 /* Modality.swift */,
 				BF42A3CE26D8CE2A0032CF3B /* Settings Example */,
 			);
 			path = "App Architecture";
@@ -134,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				BF44043A26E259A800F2C143 /* Notes.swift */,
+				BF44043C26E25D8F00F2C143 /* IntroducingBedtime.swift */,
+				BF44043E26E35A9F00F2C143 /* Favorites.swift */,
 			);
 			path = "Visual Design";
 			sourceTree = "<group>";
@@ -212,10 +224,14 @@
 				BF42A3D626D8E4B60032CF3B /* DataEntry.swift in Sources */,
 				BF42A3D026D8CE470032CF3B /* Settings.swift in Sources */,
 				BF44043826E2536000F2C143 /* Recents.swift in Sources */,
+				BF44043F26E35A9F00F2C143 /* Favorites.swift in Sources */,
+				BF44044126E380FA00F2C143 /* Onboarding.swift in Sources */,
+				BF44044326E38EE500F2C143 /* Modality.swift in Sources */,
 				BF44043B26E259A800F2C143 /* Notes.swift in Sources */,
 				BF42A3C126D8CE050032CF3B /* ContentView.swift in Sources */,
 				BF42A3BF26D8CE050032CF3B /* HumanInterfaceGuidelinesApp.swift in Sources */,
 				BF42A3D826D8F4B40032CF3B /* Ringtone.swift in Sources */,
+				BF44043D26E25D8F00F2C143 /* IntroducingBedtime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
